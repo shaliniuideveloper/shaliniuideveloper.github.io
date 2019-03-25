@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shaliniuideveloper.github.io/cardApplication/precache-manifest.d85b1cf7fb38c6f97de99856d5362290.js"
+  "/cardApplication/index.html/precache-manifest.ac8d18d8598821aaf63f6fdc1fc19a4d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/shaliniuideveloper.github.io/cardApplication/index.html", {
+workbox.routing.registerNavigationRoute("/cardApplication/index.html/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
