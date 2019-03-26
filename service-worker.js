@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cardApplication/index.html/precache-manifest.ac8d18d8598821aaf63f6fdc1fc19a4d.js"
+  "/cardApplication/precache-manifest.f7a6681a8f24420c84d2a42e3957f9c4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cardApplication/index.html/index.html", {
+workbox.routing.registerNavigationRoute("/cardApplication/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
